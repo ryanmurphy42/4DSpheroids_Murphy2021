@@ -1,5 +1,7 @@
 2021--Murphy et al.--Designing and interpreting 4D tumour spheroid experiments
 
+Preprint on bioRxiv: https://doi.org/10.1101/2021.08.18.456910
+
 CODE TO BE UPLOADED BY 28/08/2021
 
 --Key code used to generate paper figures.
