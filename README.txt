@@ -2,11 +2,19 @@
 
 Preprint on bioRxiv: https://doi.org/10.1101/2021.08.18.456910
 
-CODE TO BE UPLOADED BY 28/08/2021
+Key MATLAB code used to generate figures.
 
---Key code used to generate paper figures.
---A_Murphy2021Spheroids_Main.m is the main script.
+or any queries and questions on this code please contact Ryan Murphy.
 
+Notes:
+1) The main script is A_Murphy2021Spheroids_Main.m. By running each section of this code one can generate maximum likelihood estimates, profile likelihoods, and figures in the main manuscript and supplementary material.
 
+2) function_load_simulation_settings.m - this script includes details used to generate maximum likelihood estimates and profile likelihoods. In this file the user can specify the cell line, initial condition, temporal resolution, and types of measurements used.
 
+3) Data files used for code are included as .mat files. Each cell line has 3 files corresponding to outer radius measurements, inhibited radius measurements, and necrotic radius measurements. These files are also provided in an .csv format.
 
+4) AA_Murphy2021Spheroids_RUN_loop.m - this script can be used to loop through the main script (A_Murphy2021Spheroids_Main.m) without running each section separately. The simulation number is set for a WM793b tumour spheroid formed with 5000 cells and analysed with Design 3 Time Resolution A.
+
+5) Section 33 of  A_Murphy2021Spheroids_Main.m enables figures in plots to be generated (provided MLE and profile likelihoods data files have been generated for all relevant simulations in the figure - this is completed by modifying  AA_Murphy2021Spheroids_RUN_loop.m). function_Greenspan_compute_confidenceintervals - can be called to generate approximate 95% confidence intervals as shown in the Table 3 Supplementary Material D.
+
+6) function_Greenspan_generate_synthetic_data.m - this standalone script is used to generate the synthetic data used in Supplementary Material E.
