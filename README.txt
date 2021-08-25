@@ -4,7 +4,7 @@ Preprint on bioRxiv: https://doi.org/10.1101/2021.08.18.456910
 
 Key MATLAB code used to generate figures.
 
-or any queries and questions on this code please contact Ryan Murphy.
+Please contact Ryan Murphy for any queries or questions.
 
 Notes:
 1) The main script is A_Murphy2021Spheroids_Main.m. By running each section of this code one can generate maximum likelihood estimates, profile likelihoods, and figures in the main manuscript and supplementary material.
