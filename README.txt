@@ -12,7 +12,7 @@ Notes:
 
 2) function_load_simulation_settings.m - this script includes details used to generate maximum likelihood estimates and profile likelihoods. In this file the user can specify the cell line, initial condition, temporal resolution, and types of measurements used. To run this code move the relevant .mat files from the 'Data files (MATLAB)' folder into the same folder as the MATLAB scripts.
 
-3) Data files used for code are included as .mat files. Each cell line has 3 files corresponding to outer radius measurements, inhibited radius measurements, and necrotic radius measurements. These files are also provided in an .csv format.
+3) Data files used for code are included as .mat files in the folder 'Data files (MATLAB)'. Each cell line has 3 files corresponding to outer radius measurements, inhibited radius measurements, and necrotic radius measurements. These files are also provided in an .csv format in the folder 'Data files (csv)'.
 
 4) AA_Murphy2021Spheroids_RUN_loop.m - this script can be used to loop through the main script (A_Murphy2021Spheroids_Main.m) without running each section separately. The simulation number is set for a WM793b tumour spheroid formed with 5000 cells and analysed with Design 3 Time Resolution A.
 
