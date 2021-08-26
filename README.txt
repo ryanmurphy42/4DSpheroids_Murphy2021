@@ -3,6 +3,7 @@
 Preprint on bioRxiv: https://doi.org/10.1101/2021.08.18.456910
 
 Key MATLAB code used to generate figures.
+Software requirements: MATLAB 2019a or later.
 
 Please contact Ryan Murphy for any queries or questions.
 
